@@ -7,7 +7,7 @@
 //
 
 //http://stackoverflow.com/a/5725185/1397904
-#define DEGREES_TO_RADIANS(x) (M_PI * (x) / 180.0)
+#define DEGREES_TO_RADIANS(x) (M_PI * (x) / 180.0) //
 
 
 #import "GMDMenuControl.h"
@@ -169,11 +169,13 @@
     //Change text label when pressed
     //----------
     press++;
-    if (press == menuOptions.count) {
+    if (press >= menuOptions.count) {
         press = 0;
     }
     self.menuLabel.text = menuOptions[press];
     self.selection = menuOptions[press];
+    
+    NSLog(@"%i", press);
     
     //---------------
     //Arc view animation
@@ -181,30 +183,41 @@
 //    CABasicAnimation *fullRoation;
 //    fullRoation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
 //    fullRoation.fromValue = [NSNumber numberWithFloat:0.0f];
-//    fullRoation.toValue = [NSNumber numberWithFloat:((60*M_PI)/-180)];
+//    fullRoation.toValue = [NSNumber numberWithFloat:6];
 //    fullRoation.duration = 1.0;
 //    fullRoation.repeatCount = 1;
 //    
 //    [self.arcView.layer setValue:fullRoation forKey:fullRoation.keyPath];
 //    [self.arcView.layer addAnimation:fullRoation forKey:@"360"];
     
+    //-------------------
+    //New Arc animation - Previous animation just rotates arcs 360 degrees.
+    //-----------------
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDelay:0];
     [UIView setAnimationDuration:.5f];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    [UIView setAnimationBeginsFromCurrentState:YES];
     [UIView setAnimationRepeatCount:1];
     self.arcView.transform = CGAffineTransformRotate(self.arcView.transform, DEGREES_TO_RADIANS(360/menuOptions.count) * press);
     [UIView commitAnimations];
-    
-    
 }
 
 - (void)randomSelection {
+    //-----------
+    //Set random selection
+    //Set animation when shuffle button pressed
+    //-----------
     int random = arc4random() % menuOptions.count;
     self.press = random;
     [self pressedMenuOption];
 }
 
 #pragma mark - Arc colors
+//---------------
+//Set arc colors
+//Colors obtained from PSD and converted to UIColor
+//--------------
 + (UIColor *)darkarc {
     return [UIColor colorWithRed:0.40f green:0.00f blue:0.20f alpha:1.0f];
 }
