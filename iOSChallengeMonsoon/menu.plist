@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BatchSize</key>
+	<array>
+		<string>ONE OF A KIND</string>
+		<string>SMALL BATCH</string>
+		<string>LARGE BATCH</string>
+		<string>MASS MARKET</string>
+	</array>
+	<key>FlavorType</key>
+	<array>
+		<string>SAVORY</string>
+		<string>SWEET</string>
+		<string>UMAMI</string>
+	</array>
+	<key>SpiceLevel</key>
+	<array>
+		<string>SPICY</string>
+		<string>MILD</string>
+	</array>
+	<key>Texture</key>
+	<array>
+		<string>CRUNCHY</string>
+		<string>MUSHY</string>
+		<string>SMOOTH</string>
+	</array>
+	<key>Degree</key>
+	<array>
+		<string>A LITTLE</string>
+		<string>A LOT</string>
+	</array>
+	<key>Meal</key>
+	<array>
+		<string>BREAKFAST</string>
+		<string>BRUNCH</string>
+		<string>LUNCH</string>
+		<string>SNACK</string>
+		<string>DINNER</string>
+	</array>
+</dict>
+</plist>

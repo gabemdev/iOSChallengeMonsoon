@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D77205419B7A8EE001F0117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77205319B7A8EE001F0117 /* Foundation.framework */; };
+		6D77205619B7A8EE001F0117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77205519B7A8EE001F0117 /* CoreGraphics.framework */; };
+		6D77205819B7A8EE001F0117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77205719B7A8EE001F0117 /* UIKit.framework */; };
+		6D77205E19B7A8EE001F0117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D77205C19B7A8EE001F0117 /* InfoPlist.strings */; };
+		6D77206019B7A8EE001F0117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77205F19B7A8EE001F0117 /* main.m */; };
+		6D77206419B7A8EE001F0117 /* GMDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77206319B7A8EE001F0117 /* GMDAppDelegate.m */; };
+		6D77206619B7A8EE001F0117 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D77206519B7A8EE001F0117 /* Images.xcassets */; };
+		6D77206D19B7A8EE001F0117 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77206C19B7A8EE001F0117 /* XCTest.framework */; };
+		6D77206E19B7A8EE001F0117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77205319B7A8EE001F0117 /* Foundation.framework */; };
+		6D77206F19B7A8EE001F0117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77205719B7A8EE001F0117 /* UIKit.framework */; };
+		6D77207719B7A8EE001F0117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D77207519B7A8EE001F0117 /* InfoPlist.strings */; };
+		6D77207919B7A8EE001F0117 /* iOSChallengeMonsoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77207819B7A8EE001F0117 /* iOSChallengeMonsoonTests.m */; };
+		6D77208819B7AAAF001F0117 /* GMDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77208719B7AAAF001F0117 /* GMDMenuViewController.m */; };
+		6D77208C19B7ABE7001F0117 /* GMDMenuControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77208B19B7ABE7001F0117 /* GMDMenuControl.m */; };
+		6D77209019B7BFD9001F0117 /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D77208F19B7BFD9001F0117 /* menu.plist */; };
+		6D77209219B80D4C001F0117 /* motion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D77209119B80D4C001F0117 /* motion.mp3 */; };
+		6D77209419B80DB7001F0117 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77209319B80DB7001F0117 /* AudioToolbox.framework */; };
+		6D77209619B8118E001F0117 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D77209519B8118E001F0117 /* QuartzCore.framework */; };
+		6D77209919B822ED001F0117 /* GMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77209819B822ED001F0117 /* GMDetailViewController.m */; };
+		6D7720A219B851BF001F0117 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D7720A119B851BF001F0117 /* SourceSansPro-Regular.otf */; };
+		6D7720A419B851CF001F0117 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D7720A319B851CF001F0117 /* SourceSansPro-Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D77207019B7A8EE001F0117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D77204819B7A8EE001F0117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D77204F19B7A8EE001F0117;
+			remoteInfo = iOSChallengeMonsoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D77205019B7A8EE001F0117 /* iOSChallengeMonsoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSChallengeMonsoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77205319B7A8EE001F0117 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D77205519B7A8EE001F0117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D77205719B7A8EE001F0117 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D77205B19B7A8EE001F0117 /* iOSChallengeMonsoon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSChallengeMonsoon-Info.plist"; sourceTree = "<group>"; };
+		6D77205D19B7A8EE001F0117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D77205F19B7A8EE001F0117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D77206119B7A8EE001F0117 /* iOSChallengeMonsoon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSChallengeMonsoon-Prefix.pch"; sourceTree = "<group>"; };
+		6D77206219B7A8EE001F0117 /* GMDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMDAppDelegate.h; sourceTree = "<group>"; };
+		6D77206319B7A8EE001F0117 /* GMDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMDAppDelegate.m; sourceTree = "<group>"; };
+		6D77206519B7A8EE001F0117 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D77206B19B7A8EE001F0117 /* iOSChallengeMonsoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSChallengeMonsoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77206C19B7A8EE001F0117 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D77207419B7A8EE001F0117 /* iOSChallengeMonsoonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSChallengeMonsoonTests-Info.plist"; sourceTree = "<group>"; };
+		6D77207619B7A8EE001F0117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D77207819B7A8EE001F0117 /* iOSChallengeMonsoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSChallengeMonsoonTests.m; sourceTree = "<group>"; };
+		6D77208619B7AAAF001F0117 /* GMDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDMenuViewController.h; sourceTree = "<group>"; };
+		6D77208719B7AAAF001F0117 /* GMDMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDMenuViewController.m; sourceTree = "<group>"; };
+		6D77208A19B7ABE7001F0117 /* GMDMenuControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDMenuControl.h; sourceTree = "<group>"; };
+		6D77208B19B7ABE7001F0117 /* GMDMenuControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDMenuControl.m; sourceTree = "<group>"; };
+		6D77208F19B7BFD9001F0117 /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
+		6D77209119B80D4C001F0117 /* motion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = motion.mp3; sourceTree = "<group>"; };
+		6D77209319B80DB7001F0117 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6D77209519B8118E001F0117 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6D77209719B822ED001F0117 /* GMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDetailViewController.h; sourceTree = "<group>"; };
+		6D77209819B822ED001F0117 /* GMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDetailViewController.m; sourceTree = "<group>"; };
+		6D7720A119B851BF001F0117 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		6D7720A319B851CF001F0117 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D77204D19B7A8EE001F0117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77209619B8118E001F0117 /* QuartzCore.framework in Frameworks */,
+				6D77209419B80DB7001F0117 /* AudioToolbox.framework in Frameworks */,
+				6D77205619B7A8EE001F0117 /* CoreGraphics.framework in Frameworks */,
+				6D77205819B7A8EE001F0117 /* UIKit.framework in Frameworks */,
+				6D77205419B7A8EE001F0117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D77206819B7A8EE001F0117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77206D19B7A8EE001F0117 /* XCTest.framework in Frameworks */,
+				6D77206F19B7A8EE001F0117 /* UIKit.framework in Frameworks */,
+				6D77206E19B7A8EE001F0117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D77204719B7A8EE001F0117 = {
+			isa = PBXGroup;
+			children = (
+				6D77205919B7A8EE001F0117 /* iOSChallengeMonsoon */,
+				6D77207219B7A8EE001F0117 /* iOSChallengeMonsoonTests */,
+				6D77205219B7A8EE001F0117 /* Frameworks */,
+				6D77205119B7A8EE001F0117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D77205119B7A8EE001F0117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D77205019B7A8EE001F0117 /* iOSChallengeMonsoon.app */,
+				6D77206B19B7A8EE001F0117 /* iOSChallengeMonsoonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D77205219B7A8EE001F0117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D77209519B8118E001F0117 /* QuartzCore.framework */,
+				6D77209319B80DB7001F0117 /* AudioToolbox.framework */,
+				6D77205319B7A8EE001F0117 /* Foundation.framework */,
+				6D77205519B7A8EE001F0117 /* CoreGraphics.framework */,
+				6D77205719B7A8EE001F0117 /* UIKit.framework */,
+				6D77206C19B7A8EE001F0117 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D77205919B7A8EE001F0117 /* iOSChallengeMonsoon */ = {
+			isa = PBXGroup;
+			children = (
+				6D77208319B7AA8D001F0117 /* Code */,
+				6D77208219B7AA7E001F0117 /* Resources */,
+			);
+			path = iOSChallengeMonsoon;
+			sourceTree = "<group>";
+		};
+		6D77205A19B7A8EE001F0117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D77205B19B7A8EE001F0117 /* iOSChallengeMonsoon-Info.plist */,
+				6D77205C19B7A8EE001F0117 /* InfoPlist.strings */,
+				6D77205F19B7A8EE001F0117 /* main.m */,
+				6D77206119B7A8EE001F0117 /* iOSChallengeMonsoon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D77207219B7A8EE001F0117 /* iOSChallengeMonsoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D77207819B7A8EE001F0117 /* iOSChallengeMonsoonTests.m */,
+				6D77207319B7A8EE001F0117 /* Supporting Files */,
+			);
+			path = iOSChallengeMonsoonTests;
+			sourceTree = "<group>";
+		};
+		6D77207319B7A8EE001F0117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D77207419B7A8EE001F0117 /* iOSChallengeMonsoonTests-Info.plist */,
+				6D77207519B7A8EE001F0117 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D77208219B7AA7E001F0117 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D7720A019B851A7001F0117 /* Fonts */,
+				6D77209119B80D4C001F0117 /* motion.mp3 */,
+				6D77206519B7A8EE001F0117 /* Images.xcassets */,
+				6D77205A19B7A8EE001F0117 /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D77208319B7AA8D001F0117 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6D77208519B7AAA2001F0117 /* Core */,
+				6D77208419B7AA9A001F0117 /* ViewControllers */,
+				6D77208919B7ABC8001F0117 /* Menu Control */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		6D77208419B7AA9A001F0117 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D77208619B7AAAF001F0117 /* GMDMenuViewController.h */,
+				6D77208719B7AAAF001F0117 /* GMDMenuViewController.m */,
+				6D77209719B822ED001F0117 /* GMDetailViewController.h */,
+				6D77209819B822ED001F0117 /* GMDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6D77208519B7AAA2001F0117 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6D77206219B7A8EE001F0117 /* GMDAppDelegate.h */,
+				6D77206319B7A8EE001F0117 /* GMDAppDelegate.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6D77208919B7ABC8001F0117 /* Menu Control */ = {
+			isa = PBXGroup;
+			children = (
+				6D77208A19B7ABE7001F0117 /* GMDMenuControl.h */,
+				6D77208B19B7ABE7001F0117 /* GMDMenuControl.m */,
+				6D77208F19B7BFD9001F0117 /* menu.plist */,
+			);
+			name = "Menu Control";
+			sourceTree = "<group>";
+		};
+		6D7720A019B851A7001F0117 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6D7720A119B851BF001F0117 /* SourceSansPro-Regular.otf */,
+				6D7720A319B851CF001F0117 /* SourceSansPro-Bold.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D77204F19B7A8EE001F0117 /* iOSChallengeMonsoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D77207C19B7A8EE001F0117 /* Build configuration list for PBXNativeTarget "iOSChallengeMonsoon" */;
+			buildPhases = (
+				6D77204C19B7A8EE001F0117 /* Sources */,
+				6D77204D19B7A8EE001F0117 /* Frameworks */,
+				6D77204E19B7A8EE001F0117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSChallengeMonsoon;
+			productName = iOSChallengeMonsoon;
+			productReference = 6D77205019B7A8EE001F0117 /* iOSChallengeMonsoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D77206A19B7A8EE001F0117 /* iOSChallengeMonsoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D77207F19B7A8EE001F0117 /* Build configuration list for PBXNativeTarget "iOSChallengeMonsoonTests" */;
+			buildPhases = (
+				6D77206719B7A8EE001F0117 /* Sources */,
+				6D77206819B7A8EE001F0117 /* Frameworks */,
+				6D77206919B7A8EE001F0117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D77207119B7A8EE001F0117 /* PBXTargetDependency */,
+			);
+			name = iOSChallengeMonsoonTests;
+			productName = iOSChallengeMonsoonTests;
+			productReference = 6D77206B19B7A8EE001F0117 /* iOSChallengeMonsoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D77204819B7A8EE001F0117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GMD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gabe Morales";
+				TargetAttributes = {
+					6D77206A19B7A8EE001F0117 = {
+						TestTargetID = 6D77204F19B7A8EE001F0117;
+					};
+				};
+			};
+			buildConfigurationList = 6D77204B19B7A8EE001F0117 /* Build configuration list for PBXProject "iOSChallengeMonsoon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D77204719B7A8EE001F0117;
+			productRefGroup = 6D77205119B7A8EE001F0117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D77204F19B7A8EE001F0117 /* iOSChallengeMonsoon */,
+				6D77206A19B7A8EE001F0117 /* iOSChallengeMonsoonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D77204E19B7A8EE001F0117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7720A219B851BF001F0117 /* SourceSansPro-Regular.otf in Resources */,
+				6D77205E19B7A8EE001F0117 /* InfoPlist.strings in Resources */,
+				6D77209019B7BFD9001F0117 /* menu.plist in Resources */,
+				6D77209219B80D4C001F0117 /* motion.mp3 in Resources */,
+				6D7720A419B851CF001F0117 /* SourceSansPro-Bold.otf in Resources */,
+				6D77206619B7A8EE001F0117 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D77206919B7A8EE001F0117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77207719B7A8EE001F0117 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D77204C19B7A8EE001F0117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77208819B7AAAF001F0117 /* GMDMenuViewController.m in Sources */,
+				6D77208C19B7ABE7001F0117 /* GMDMenuControl.m in Sources */,
+				6D77206019B7A8EE001F0117 /* main.m in Sources */,
+				6D77209919B822ED001F0117 /* GMDetailViewController.m in Sources */,
+				6D77206419B7A8EE001F0117 /* GMDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D77206719B7A8EE001F0117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D77207919B7A8EE001F0117 /* iOSChallengeMonsoonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D77207119B7A8EE001F0117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D77204F19B7A8EE001F0117 /* iOSChallengeMonsoon */;
+			targetProxy = 6D77207019B7A8EE001F0117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D77205C19B7A8EE001F0117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D77205D19B7A8EE001F0117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D77207519B7A8EE001F0117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D77207619B7A8EE001F0117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D77207A19B7A8EE001F0117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D77207B19B7A8EE001F0117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D77207D19B7A8EE001F0117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallengeMonsoon/iOSChallengeMonsoon-Prefix.pch";
+				INFOPLIST_FILE = "iOSChallengeMonsoon/iOSChallengeMonsoon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D77207E19B7A8EE001F0117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallengeMonsoon/iOSChallengeMonsoon-Prefix.pch";
+				INFOPLIST_FILE = "iOSChallengeMonsoon/iOSChallengeMonsoon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6D77208019B7A8EE001F0117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSChallengeMonsoon.app/iOSChallengeMonsoon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallengeMonsoon/iOSChallengeMonsoon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSChallengeMonsoonTests/iOSChallengeMonsoonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6D77208119B7A8EE001F0117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSChallengeMonsoon.app/iOSChallengeMonsoon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallengeMonsoon/iOSChallengeMonsoon-Prefix.pch";
+				INFOPLIST_FILE = "iOSChallengeMonsoonTests/iOSChallengeMonsoonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D77204B19B7A8EE001F0117 /* Build configuration list for PBXProject "iOSChallengeMonsoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D77207A19B7A8EE001F0117 /* Debug */,
+				6D77207B19B7A8EE001F0117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D77207C19B7A8EE001F0117 /* Build configuration list for PBXNativeTarget "iOSChallengeMonsoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D77207D19B7A8EE001F0117 /* Debug */,
+				6D77207E19B7A8EE001F0117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D77207F19B7A8EE001F0117 /* Build configuration list for PBXNativeTarget "iOSChallengeMonsoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D77208019B7A8EE001F0117 /* Debug */,
+				6D77208119B7A8EE001F0117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D77204819B7A8EE001F0117 /* Project object */;
+}
