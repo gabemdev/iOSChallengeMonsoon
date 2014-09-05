@@ -189,7 +189,7 @@
 - (void)setAudio {
     //---------------
     //Set audio, mp3 obtained from another non commercial app.
-    //Requiers #import <AudioToolbox/AudioToolbox.h>
+    //Requires #import <AudioToolbox/AudioToolbox.h>
     //---------------
     NSString *soundPath = [[NSBundle mainBundle]pathForResource:@"motion" ofType:@"mp3"];
     NSURL *soundURL = [NSURL fileURLWithPath:soundPath];

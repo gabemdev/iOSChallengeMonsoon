@@ -121,6 +121,9 @@
     //http://stackoverflow.com/a/18384709/1397904
     CGFloat beginAngle = 84.0f;
     
+    //-----------------
+    //Arc Stroke Path color - PSD shows 2 different colors. Set color for each arc.
+    //-----------------
     for (int i = 0; i < menuOptions.count; i++) {
         if (i == 0) {
             CGContextSetStrokeColorWithColor(contextRef, [[self class] lightarc].CGColor);
@@ -175,7 +178,7 @@
     self.menuLabel.text = menuOptions[press];
     self.selection = menuOptions[press];
     
-    NSLog(@"%i", press);
+//    NSLog(@"%i", press);
     
     //---------------
     //Arc view animation

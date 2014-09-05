@@ -11,10 +11,6 @@
 
 @implementation GMDAppDelegate
 
-+ (GMDAppDelegate *)sharedAppDelegate {
-    return (GMDAppDelegate *)[[UIApplication sharedApplication] delegate];
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -58,11 +54,14 @@
 
 #pragma mark - Style
 - (void)setStyle {
-    //Status bar
+    //------------
+    //Status bar - Light content as shown on PSD
+    //------------
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     
-    
-    //Navigation bar
+    //----------------
+    //Navigation bar - UIBarStyle set to UIBarStyleBlack so BarStyleLightContent will work
+    //----------------
     UINavigationBar *navigationBar = [UINavigationBar appearance];
     [navigationBar setBarStyle:UIBarStyleBlack];
     
