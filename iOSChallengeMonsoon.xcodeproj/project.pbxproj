@@ -28,6 +28,7 @@
 		6D77209919B822ED001F0117 /* GMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77209819B822ED001F0117 /* GMDetailViewController.m */; };
 		6D7720A219B851BF001F0117 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D7720A119B851BF001F0117 /* SourceSansPro-Regular.otf */; };
 		6D7720A419B851CF001F0117 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D7720A319B851CF001F0117 /* SourceSansPro-Bold.otf */; };
+		6DA01F1319B91A9A0093783A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6DA01F1219B91A9A0093783A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		6D77209819B822ED001F0117 /* GMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDetailViewController.m; sourceTree = "<group>"; };
 		6D7720A119B851BF001F0117 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
 		6D7720A319B851CF001F0117 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		6DA01F1219B91A9A0093783A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		6D77205A19B7A8EE001F0117 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DA01F1219B91A9A0093783A /* README.md */,
 				6D77205B19B7A8EE001F0117 /* iOSChallengeMonsoon-Info.plist */,
 				6D77205C19B7A8EE001F0117 /* InfoPlist.strings */,
 				6D77205F19B7A8EE001F0117 /* main.m */,
@@ -306,6 +309,7 @@
 				6D7720A219B851BF001F0117 /* SourceSansPro-Regular.otf in Resources */,
 				6D77205E19B7A8EE001F0117 /* InfoPlist.strings in Resources */,
 				6D77209019B7BFD9001F0117 /* menu.plist in Resources */,
+				6DA01F1319B91A9A0093783A /* README.md in Resources */,
 				6D77209219B80D4C001F0117 /* motion.mp3 in Resources */,
 				6D7720A419B851CF001F0117 /* SourceSansPro-Bold.otf in Resources */,
 				6D77206619B7A8EE001F0117 /* Images.xcassets in Resources */,
@@ -528,6 +532,7 @@
 				6D77207E19B7A8EE001F0117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D77207F19B7A8EE001F0117 /* Build configuration list for PBXNativeTarget "iOSChallengeMonsoonTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				6D77208119B7A8EE001F0117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
